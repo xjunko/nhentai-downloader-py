@@ -7,3 +7,4 @@ parser.add_argument('concurrent_count', type=int, nargs='?', default=20, help='h
 args = parser.parse_args()
 
 # yes
+yes = nHentai(args.id, concurrent_count=args.concurrent_count).run()
