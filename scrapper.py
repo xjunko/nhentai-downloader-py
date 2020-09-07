@@ -68,7 +68,7 @@ class nHentai:
 
     def done(self):
         result = (datetime.datetime.now() - self.startTime).total_seconds()
-        print(f'Finished donwloading {self.id}, took {result} seconds to download.')
+        print(f'Finished downloading {self.id}, took {result} seconds to download.')
 
 
 
